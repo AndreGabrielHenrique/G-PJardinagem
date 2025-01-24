@@ -1,0 +1,231 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5e9;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #79c679;
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .user-actions button {
+    background-color: #296d29;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .user-actions button:hover {
+    background-color: #215921;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #a7dba7;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    flex: 1 1 300px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8em;
+    color: #000;
+  }
+  
+  .hero-text h1 span {
+    color: #3ab03a;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .hero-text .sign-in {
+    background-color: #215921;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .hero-text .sign-in:hover {
+    background-color: #1a481a;
+  }
+  
+  .hero-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  /* Luminosity Section */
+  .luminosity {
+    padding: 40px 20px;
+    background-color: #f2f9f2;
+  }
+  
+  .luminosity h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #3a703a;
+    text-align: center;
+  }
+  
+  .luminosity-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 3px solid #79c679;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 280px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card.sombra {
+    background-color: #295e2c;
+    color: white;
+  }
+  
+  .card.sol-pleno {
+    background-color: #ffc107;
+    color: #4a3d00;
+  }
+  
+  .card.meia-sombra {
+    background-color: #79c9f2;
+    color: #00334a;
+  }
+  
+  .card h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .card .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adubar Section */
+  .adubar {
+    padding: 40px 20px;
+    background-color: #e8f9e8;
+  }
+  
+  .adubar h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3a703a;
+  }
+  
+  .adubar-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .adubar-image img {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  
+  .adubar-text {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .temperatura-valor {
+    font-size: 2em;
+    color: #3a703a;
+    font-weight: bold;
+  }
+  
+  .adubar-text p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .saiba-mais {
+    background-color: #3ab03a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .saiba-mais:hover {
+    background-color: #296d29;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #296d29;
+    color: white;
+    font-size: 0.9em;
+  }
+  
